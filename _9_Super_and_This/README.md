@@ -403,9 +403,12 @@ class A {
 
 ## How to Compile and Run
 
+The file declares `package _9_Super_and_This;`, so compile and run from the
+parent directory using the package path:
+
 ```bash
-javac _9_Super_and_This.java
-java _9_Super_and_This
+javac _9_Super_and_This/_9_Super_and_This.java
+java _9_Super_and_This._9_Super_and_This
 ```
 
 ### Expected Output

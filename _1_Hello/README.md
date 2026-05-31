@@ -112,20 +112,24 @@ If even one of these keywords is missing or misspelled, the program will not run
 
 ### Step 1: Save the file
 
-Save the file as `_1_Hello.java`. Note that the file name does not need to match the class name unless the class is declared as `public`.
+Save the file as `_1_Hello.java` inside the `_1_Hello` folder. The file declares `package _1_Hello;`, and the class inside it is named `Hello`. Note that the file name does not need to match the class name unless the class is declared as `public`.
 
 ### Step 2: Compile
 
+From the parent directory, compile using the package path:
+
 ```bash
-javac _1_Hello.java
+javac _1_Hello/_1_Hello.java
 ```
 
 This command invokes the Java Compiler (`javac`), which converts the `.java` source file into a `.class` bytecode file.
 
 ### Step 3: Run
 
+Run using the fully qualified name (`package.ClassName`):
+
 ```bash
-java Hello
+java _1_Hello.Hello
 ```
 
 This command invokes the Java Virtual Machine (JVM), which reads the `Hello.class` file and executes the `main` method.

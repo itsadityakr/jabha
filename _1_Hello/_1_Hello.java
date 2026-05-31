@@ -1,3 +1,5 @@
+package _1_Hello;
+
 /**
  * A simple Hello World program in Java.
  */
