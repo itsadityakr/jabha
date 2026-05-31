@@ -155,7 +155,7 @@ class Human {
     }
 }
 
-public class _6_Encapsulation {
+public class _6_Encapsulation_Code {
 
     public static void main(String[] args) {
 
@@ -258,8 +258,8 @@ public void setAge(int age) {
 ## How to Compile and Run
 
 ```bash
-javac _6_Encapsulation.java
-java _6_Encapsulation
+javac _6_Encapsulation_Code.java
+java _6_Encapsulation_Code
 ```
 
 ### Expected Output

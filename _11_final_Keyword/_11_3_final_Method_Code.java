@@ -12,7 +12,7 @@ class B extends A {
     // }
 }
 
-public class _11_3_final_Method {
+public class _11_3_final_Method_Code {
     public static void main(String[] args) {
         B b = new B();
         b.show();

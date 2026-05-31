@@ -24,7 +24,7 @@ class Bird extends Animal {
     }
 }
 
-public class _10_Polymorphism_Runtime {
+public class _10_Polymorphism_Runtime_Code {
     public static void main(String[] args) {
         Animal animal = new Animal();
         Dog dog = new Dog();

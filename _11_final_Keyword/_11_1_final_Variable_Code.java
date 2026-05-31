@@ -15,7 +15,7 @@ final class Base {
  * }
  */
 
-public class _11_1_final_Variable {
+public class _11_1_final_Variable_Code {
     final int MAX = 100; // Compile-time constant
 
     public static void main(String[] args) {

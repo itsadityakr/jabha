@@ -63,7 +63,7 @@ class Phone{
     }
 }
 
-public class _7_Static_Keyword {
+public class _7_Static_Keyword_Code {
     public static void main(String[] args) {
         Phone obj1 = new Phone();
         Phone.name = "Samsung";
@@ -256,8 +256,8 @@ The static block runs only once, while the constructor runs for every new object
 ## How to Compile and Run
 
 ```bash
-javac _7_Static_Keyword.java
-java _7_Static_Keyword
+javac _7_Static_Keyword_Code.java
+java _7_Static_Keyword_Code
 ```
 
 ### Expected Output

@@ -105,7 +105,7 @@ jagged[2] = new int[1];  // Third row has 1 column
 ## Understanding the Code
 
 ```java
-public class _4_Arrays {
+public class _4_Arrays_Code {
 
     public static void main(String[] args) {
         int nums[] = new int[5];
@@ -258,8 +258,8 @@ while (i < nums.length) {
 ## How to Compile and Run
 
 ```bash
-javac _4_Arrays.java
-java _4_Arrays
+javac _4_Arrays_Code.java
+java _4_Arrays_Code
 ```
 
 ### Expected Output

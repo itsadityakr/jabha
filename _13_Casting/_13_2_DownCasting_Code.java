@@ -11,7 +11,7 @@ package _13_Casting;
 // is only safe if the object REALLY is that subclass. If it is not, Java throws
 // a ClassCastException at runtime. The safe way is to check with 'instanceof'
 // before casting.
-public class _13_2_DownCasting {
+public class _13_2_DownCasting_Code {
 
     // The same A/B hierarchy as the upcasting demo, declared as static nested
     // classes so this file is self-contained and does not clash with the A/B in

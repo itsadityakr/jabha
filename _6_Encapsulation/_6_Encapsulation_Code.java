@@ -30,7 +30,7 @@ class Human {
 /**
  * Main class to demonstrate the Human class and encapsulation.
  */
-public class _6_Encapsulation {
+public class _6_Encapsulation_Code {
 
     public static void main(String[] args) {
 

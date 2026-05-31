@@ -21,7 +21,7 @@ class Calculator {
 /**
  * Main class to demonstrate the usage of the Calculator class.
  */
-public class _3_Classes {
+public class _3_Classes_Code {
 
     public static void main(String[] args) {
         int n1 = 2,

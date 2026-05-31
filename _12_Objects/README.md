@@ -153,7 +153,7 @@ class Laptop {
     }
 }
 
-public class _12_Objects {
+public class _12_Objects_Code {
     public static void main(String[] args) {
         Laptop obj1 = new Laptop();
         obj1.brand = "Dell";
@@ -285,8 +285,8 @@ A correct `equals()` must also be:
 The file declares `package _12_Objects;`, so compile and run from the parent directory using the package path:
 
 ```bash
-javac _12_Objects/_12_Objects.java
-java _12_Objects._12_Objects
+javac _12_Objects/_12_Objects_Code.java
+java _12_Objects._12_Objects_Code
 ```
 
 ### Expected Output

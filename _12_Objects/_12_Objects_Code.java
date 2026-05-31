@@ -48,7 +48,7 @@ class Laptop {
     }
 }
 
-public class _12_Objects {
+public class _12_Objects_Code {
     public static void main(String[] args) {
         // obj1 and obj2 hold identical data; obj3 is different.
         Laptop obj1 = new Laptop();

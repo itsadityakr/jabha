@@ -36,7 +36,7 @@ class B extends A {
 /**
  * Main class to test constructor chaining using this and super.
  */
-public class _9_Super_and_This {
+public class _9_Super_and_This_Code {
     public static void main(String[] args) {
         B obj = new B();
     }

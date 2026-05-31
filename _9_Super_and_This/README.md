@@ -119,7 +119,7 @@ class B extends A {
     }
 }
 
-public class _9_Super_and_This {
+public class _9_Super_and_This_Code {
     public static void main(String[] args) {
         B obj = new B();
     }
@@ -407,8 +407,8 @@ The file declares `package _9_Super_and_This;`, so compile and run from the
 parent directory using the package path:
 
 ```bash
-javac _9_Super_and_This/_9_Super_and_This.java
-java _9_Super_and_This._9_Super_and_This
+javac _9_Super_and_This/_9_Super_and_This_Code.java
+java _9_Super_and_This._9_Super_and_This_Code
 ```
 
 ### Expected Output

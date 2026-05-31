@@ -75,7 +75,7 @@ You must explicitly write `(int)` to tell the compiler: "I know this might lose 
 ## Understanding the Code
 
 ```java
-public class _2_TypeCasting {
+public class _2_TypeCasting_Code {
 
     public static void main(String[] args) {
         int a = 5;
@@ -219,8 +219,8 @@ int c = a + b;      // Correct
 ## How to Compile and Run
 
 ```bash
-javac _2_TypeCasting.java
-java _2_TypeCasting
+javac _2_TypeCasting_Code.java
+java _2_TypeCasting_Code
 ```
 
 ### Expected Output

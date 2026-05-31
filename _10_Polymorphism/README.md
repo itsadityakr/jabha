@@ -134,7 +134,7 @@ class Bird extends Animal {
     }
 }
 
-public class _10_Polymorphism_Runtime {
+public class _10_Polymorphism_Runtime_Code {
     public static void main(String[] args) {
         Animal animal = new Animal();
         Dog dog = new Dog();
@@ -317,14 +317,14 @@ class Calculator {
 ## How to Compile and Run
 
 ```bash
-javac _10_Polymorphism_Runtime.java
-java _10_Polymorphism_Runtime
+javac _10_Polymorphism_Runtime_Code.java
+java _10_Polymorphism_Runtime_Code
 ```
 
 > Note: The file declares `package _10_Polymorphism;`. If you compile from the parent directory, use:
 >
 > ```bash
-> javac _10_Polymorphism/_10_Polymorphism_Runtime.java
+> javac _10_Polymorphism/_10_Polymorphism_Runtime_Code.java
 > java _10_Polymorphism._10_Polymorphism_Runtime
 > ```
 

@@ -96,7 +96,7 @@ class Calculator {
     }
 }
 
-public class _3_Classes {
+public class _3_Classes_Code {
 
     public static void main(String[] args) {
         int n1 = 2,
@@ -203,8 +203,8 @@ A method is a block of code that performs a specific task. Methods allow you to 
 ## How to Compile and Run
 
 ```bash
-javac _3_Classes.java
-java _3_Classes
+javac _3_Classes_Code.java
+java _3_Classes_Code
 ```
 
 ### Expected Output

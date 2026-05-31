@@ -172,7 +172,7 @@ class B extends A {
     }
 }
 
-public class _8_Inheritance {
+public class _8_Inheritance_Code {
     public static void main(String[] args) {
         C obj = new C();
         obj.show();
@@ -351,8 +351,8 @@ What is NOT inherited:
 ## How to Compile and Run
 
 ```bash
-javac _8_Inheritance.java
-java _8_Inheritance
+javac _8_Inheritance_Code.java
+java _8_Inheritance_Code
 ```
 
 ### Expected Output

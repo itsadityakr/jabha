@@ -23,9 +23,9 @@ This chapter is split across three files, one for each use:
 
 | File | Demonstrates |
 |------|--------------|
-| `_11_1_final_Variable.java` | `final` variables (constants and final references) |
-| `_11_2_final_Class.java`    | `final` classes (cannot be extended)               |
-| `_11_3_final_Method.java`   | `final` methods (cannot be overridden)             |
+| `_11_1_final_Variable_Code.java` | `final` variables (constants and final references) |
+| `_11_2_final_Class_Code.java`    | `final` classes (cannot be extended)               |
+| `_11_3_final_Method_Code.java`   | `final` methods (cannot be overridden)             |
 
 ---
 
@@ -75,7 +75,7 @@ final class Base {
  * }
  */
 
-public class _11_1_final_Variable {
+public class _11_1_final_Variable_Code {
     final int MAX = 100; // Compile-time constant
 
     public static void main(String[] args) {
@@ -131,7 +131,7 @@ Hello World
 ```java
 package _11_final_Keyword;
 
-public class _11_2_final_Class {
+public class _11_2_final_Class_Code {
     public static void main(String[] args) {
         FinalClass finalClass = new FinalClass();
         finalClass.show();
@@ -201,7 +201,7 @@ class B extends A {
     // }
 }
 
-public class _11_3_final_Method {
+public class _11_3_final_Method_Code {
     public static void main(String[] args) {
         B b = new B();
         b.show();   // calls the inherited final method from A
@@ -243,19 +243,19 @@ All three files declare `package _11_final_Keyword;`. Compile and run them from 
 
 ```bash
 # Final variable demo
-javac _11_final_Keyword/_11_1_final_Variable.java
-java _11_final_Keyword._11_1_final_Variable
+javac _11_final_Keyword/_11_1_final_Variable_Code.java
+java _11_final_Keyword._11_1_final_Variable_Code
 
 # Final class demo
-javac _11_final_Keyword/_11_2_final_Class.java
-java _11_final_Keyword._11_2_final_Class
+javac _11_final_Keyword/_11_2_final_Class_Code.java
+java _11_final_Keyword._11_2_final_Class_Code
 
 # Final method demo (override in B is commented out, so it prints "A show")
-javac _11_final_Keyword/_11_3_final_Method.java
-java _11_final_Keyword._11_3_final_Method
+javac _11_final_Keyword/_11_3_final_Method_Code.java
+java _11_final_Keyword._11_3_final_Method_Code
 ```
 
-> In `_11_3_final_Method.java`, `B`'s `show()` override is commented out, so the file compiles and prints `A show`. Uncommenting that override produces the compile-time error "overriding method is final" -- which is the lesson the example teaches.
+> In `_11_3_final_Method_Code.java`, `B`'s `show()` override is commented out, so the file compiles and prints `A show`. Uncommenting that override produces the compile-time error "overriding method is final" -- which is the lesson the example teaches.
 
 ---
 
@@ -281,7 +281,7 @@ These three are unrelated despite the similar names.
 
 ### Mistake 3: Trying to override a `final` method
 
-A subclass cannot override a `final` method (as `_11_3_final_Method.java` shows). The compiler rejects it. To allow overriding, remove `final` from the parent method.
+A subclass cannot override a `final` method (as `_11_3_final_Method_Code.java` shows). The compiler rejects it. To allow overriding, remove `final` from the parent method.
 
 ### Mistake 4: Trying to extend a `final` class
 
@@ -321,7 +321,7 @@ A `final` class cannot appear after `extends`. Use composition (holding an insta
 
 ### Q8: What happens if you try to override a `final` method?
 
-**Answer:** The code fails to compile with an error such as "overridden method is final". The subclass is not permitted to provide a new implementation. This is exactly what `_11_3_final_Method.java` demonstrates.
+**Answer:** The code fails to compile with an error such as "overridden method is final". The subclass is not permitted to provide a new implementation. This is exactly what `_11_3_final_Method_Code.java` demonstrates.
 
 ### Q9: Can a `final` class have non-final methods?
 

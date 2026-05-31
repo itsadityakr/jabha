@@ -11,7 +11,7 @@ package _13_Casting;
 //   2. Narrowing (explicit / manual): a larger type is forced into a smaller
 //      one, so YOU must write a cast (type). Data may be lost (truncation or
 //      overflow), which is why the compiler makes you ask for it explicitly.
-public class _13_1_TypeCasting {
+public class _13_1_TypeCasting_Code {
     public static void main(String[] args) {
 
         // ---------- Widening (implicit) ----------

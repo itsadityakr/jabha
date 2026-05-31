@@ -42,7 +42,7 @@ class B extends A {
 /**
  * Main class demonstrating object creation and method overriding in inheritance.
  */
-public class _8_Inheritance {
+public class _8_Inheritance_Code {
     public static void main(String[] args) {
         C obj = new C();
         obj.show();

@@ -1,6 +1,6 @@
 package _11_final_Keyword;
 
-public class _11_2_final_Class {
+public class _11_2_final_Class_Code {
     public static void main(String[] args) {
         FinalClass finalClass = new FinalClass();
         finalClass.show();

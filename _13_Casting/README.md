@@ -32,9 +32,9 @@ This chapter covers all three across three programs:
 
 | File | Demonstrates |
 |------|--------------|
-| `_13_1_TypeCasting.java` | Widening and narrowing of **primitive** types |
-| `_13_2_UpCasting.java`   | **Upcasting** a subclass object (`B`) to a superclass reference (`A`) |
-| `_13_2_DownCasting.java` | **Downcasting** a superclass reference (`A`) back to the subclass (`B`) |
+| `_13_1_TypeCasting_Code.java` | Widening and narrowing of **primitive** types |
+| `_13_2_UpCasting_Code.java`   | **Upcasting** a subclass object (`B`) to a superclass reference (`A`) |
+| `_13_2_DownCasting_Code.java` | **Downcasting** a superclass reference (`A`) back to the subclass (`B`) |
 
 Both object-casting examples use the same simple hierarchy: a superclass `A` with
 a method `showA()`, and a subclass `B extends A` that adds `showB()`. In each file
@@ -177,7 +177,7 @@ This prevents `ClassCastException` by confirming the real type first.
 
 ## Understanding the Code
 
-### `_13_1_TypeCasting.java`
+### `_13_1_TypeCasting_Code.java`
 
 ```java
 // Widening (implicit)
@@ -194,10 +194,10 @@ int code = 65;
 char ch = (char) code;  // 'A' (code -> character)
 ```
 
-### `_13_2_UpCasting.java`
+### `_13_2_UpCasting_Code.java`
 
 ```java
-public class _13_2_UpCasting {
+public class _13_2_UpCasting_Code {
     static class A {
         public void showA() { System.out.println("In Class A"); }
     }
@@ -213,10 +213,10 @@ public class _13_2_UpCasting {
 }
 ```
 
-### `_13_2_DownCasting.java`
+### `_13_2_DownCasting_Code.java`
 
 ```java
-public class _13_2_DownCasting {
+public class _13_2_DownCasting_Code {
     static class A {
         public void showA() { System.out.println("In Class A"); }
     }
@@ -276,12 +276,12 @@ directory using the package path:
 javac _13_Casting/*.java
 
 # ...or one file at a time, e.g.:
-# javac _13_Casting/_13_1_TypeCasting.java
+# javac _13_Casting/_13_1_TypeCasting_Code.java
 
 # Then run each program:
-java _13_Casting._13_1_TypeCasting
-java _13_Casting._13_2_UpCasting
-java _13_Casting._13_2_DownCasting
+java _13_Casting._13_1_TypeCasting_Code
+java _13_Casting._13_2_UpCasting_Code
+java _13_Casting._13_2_DownCasting_Code
 ```
 
 ### Expected Output

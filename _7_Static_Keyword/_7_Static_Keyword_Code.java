@@ -20,7 +20,7 @@ class Phone{
 /**
  * Main class to test the static variable behavior in the Phone class.
  */
-public class _7_Static_Keyword {
+public class _7_Static_Keyword_Code {
     public static void main(String[] args) {
         Phone obj1 = new Phone();
         Phone.name = "Samsung";

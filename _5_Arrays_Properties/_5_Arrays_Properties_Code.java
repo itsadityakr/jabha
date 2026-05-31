@@ -20,7 +20,7 @@ class Student {
 /**
  * Demonstrates the creation of an array of objects (though an array is not strictly used here, objects are instantiated).
  */
-public class _5_Arrays_Properties {
+public class _5_Arrays_Properties_Code {
 
     public static void main(String[] args) {
         // Creating and initializing first student

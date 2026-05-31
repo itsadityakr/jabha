@@ -51,7 +51,7 @@ class Student {
     }
 }
 
-public class _5_Arrays_Properties {
+public class _5_Arrays_Properties_Code {
 
     public static void main(String[] args) {
         Student s1 = new Student();
@@ -229,8 +229,8 @@ This is cleaner, less error-prone, and ensures that every student object is full
 ## How to Compile and Run
 
 ```bash
-javac _5_Arrays_Properties.java
-java _5_Arrays_Properties
+javac _5_Arrays_Properties_Code.java
+java _5_Arrays_Properties_Code
 ```
 
 ### Expected Output

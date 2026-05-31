@@ -8,7 +8,7 @@ package _13_Casting;
 // It is ALWAYS safe and happens IMPLICITLY (no cast needed), because every B
 // "is an" A. The trade-off: through the A reference you can only call members
 // declared in A -- the B-specific ones are hidden.
-public class _13_2_UpCasting {
+public class _13_2_UpCasting_Code {
 
     // The hierarchy used by this demo: superclass A and subclass B.
     // They are declared as static nested classes so this file is fully
