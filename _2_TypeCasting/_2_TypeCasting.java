@@ -21,3 +21,10 @@ public class _2_TypeCasting {
         System.out.println(c);
     }
 }
+
+/*
+ * Output:
+ * 30
+ *
+ * Explanation: (int) 6.1f becomes 6, so 5 * 6 = 30.
+ */

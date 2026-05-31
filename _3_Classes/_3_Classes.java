@@ -36,3 +36,10 @@ public class _3_Classes {
         System.out.println(add);
     }
 }
+
+/*
+ * Output:
+ * 6
+ *
+ * Explanation: calc.add(2, 4) returns 2 + 4 = 6.
+ */

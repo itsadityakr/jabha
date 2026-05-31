@@ -34,3 +34,5 @@ coverage
 
 # Public assets (optional)
 public
+
+*.md

@@ -37,3 +37,13 @@ public class _7_Static_Keyword {
         obj2.show();
     }
 }
+
+/*
+ * Output:
+ * Phone : 145000
+ * Phone : 90000
+ *
+ * Explanation: 'name' is static (shared by all objects). The last assignment
+ * Phone.name = "Phone" overwrites it for every instance, so both shows print
+ * "Phone". 'price' is an instance field, so each object keeps its own value.
+ */

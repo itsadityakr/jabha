@@ -48,3 +48,15 @@ public class _8_Inheritance {
         obj.show();
     }
 }
+
+/*
+ * Output:
+ * A
+ * B
+ * C
+ * Show Method : B
+ *
+ * Explanation: Creating C triggers constructor chaining from the top of the
+ * hierarchy down (A, then B, then C). C does not define show() (its own is
+ * commented out), so the inherited version from its nearest parent B runs.
+ */

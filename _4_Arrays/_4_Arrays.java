@@ -18,3 +18,17 @@ public class _4_Arrays {
         System.out.println(nums + " Hi ");
     }
 }
+
+/*
+ * Output:
+ * 0
+ * 0
+ * 0
+ * 0
+ * 0
+ * [I@1b6d3586 Hi
+ *
+ * Explanation: A new int[5] is filled with default values (0). Printing the
+ * array reference itself shows its type signature "[I" plus an @ and a hash
+ * code (the hash varies on each run, so "1b6d3586" is just an example).
+ */

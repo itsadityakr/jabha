@@ -39,3 +39,14 @@ public class _9_Super_and_This {
         B obj = new B();
     }
 }
+
+/*
+ * Output:
+ * A : Default Constructor
+ * A : Parameterized Constructor
+ * B : Default Constructor
+ *
+ * Explanation: new B() calls super(6) -> A(int), which calls this() -> A(),
+ * which calls super() -> Object(). The stack then unwinds, printing A's
+ * default constructor, then A's parameterized constructor, then B's.
+ */

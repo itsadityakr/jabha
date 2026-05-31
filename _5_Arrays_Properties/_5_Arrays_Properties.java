@@ -43,3 +43,11 @@ public class _5_Arrays_Properties {
         s3.marks = 98;
     }
 }
+
+/*
+ * Output:
+ * 1, Navin, 77.0
+ *
+ * Explanation: Only s1.printDetails() is called, so only s1 prints. s2 and s3
+ * are created and populated but never printed. The float marks shows as 77.0.
+ */

@@ -41,3 +41,11 @@ public class _6_Encapsulation {
         System.out.println(obj.getAge());
     }
 }
+
+/*
+ * Output:
+ * 4
+ *
+ * Explanation: setAge(4, obj) sets the private age field to 4 via the object
+ * reference, and getAge() reads it back.
+ */

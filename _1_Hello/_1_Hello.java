@@ -11,3 +11,8 @@ class Hello {
         System.out.println("Hi this is Aditya");
     }
 }
+
+/*
+ * Output:
+ * Hi this is Aditya
+ */
