@@ -314,4 +314,4 @@ int y = Math.round(6.9f);  // y is 7
 
 ---
 
-*This is part of a Java learning series. Proceed to Chapter 3: Classes and Objects to continue learning.*
+*This is part of a Java learning series. Proceed to Chapter 3: Data Types to continue learning.*
