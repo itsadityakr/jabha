@@ -1,0 +1,53 @@
+package _11_Arrays_Properties;
+
+/**
+ * Represents a Student entity with properties like rollno, name, and marks.
+ */
+class Student {
+
+    int rollno;
+    String name;
+    float marks;
+
+    /**
+     * Prints the details of the student.
+     */
+    public void printDetails() {
+        System.out.println(rollno + ", " + name + ", " + marks);
+    }
+}
+
+/**
+ * Demonstrates the creation of an array of objects (though an array is not strictly used here, objects are instantiated).
+ */
+public class _11_Arrays_Properties_Code {
+
+    public static void main(String[] args) {
+        // Creating and initializing first student
+        Student s1 = new Student();
+        s1.rollno = 1;
+        s1.name = "Navin";
+        s1.marks = 77;
+        s1.printDetails();
+
+        // Creating and initializing second student
+        Student s2 = new Student();
+        s2.rollno = 2;
+        s2.name = "Aditya";
+        s2.marks = 65;
+
+        // Creating and initializing third student
+        Student s3 = new Student();
+        s3.rollno = 3;
+        s3.name = "Tappu";
+        s3.marks = 98;
+    }
+}
+
+/*
+ * Output:
+ * 1, Navin, 77.0
+ *
+ * Explanation: Only s1.printDetails() is called, so only s1 prints. s2 and s3
+ * are created and populated but never printed. The float marks shows as 77.0.
+ */

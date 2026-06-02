@@ -208,4 +208,4 @@ Java is case-sensitive. `System` is not the same as `system`. `String` is not th
 
 ---
 
-*This is part of a Java learning series. Proceed to Chapter 2: Type Casting to continue learning.*
+*This is part of a Java learning series. Proceed to Chapter 2: JVM, JDK, JRE & Memory to continue learning.*
